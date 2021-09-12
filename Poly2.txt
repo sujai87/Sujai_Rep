@@ -10,6 +10,7 @@ class Poly2 {
 		 }
 		public static void main(String[] args){
 		 Poly2 p2 = new Poly2();
+		 /*this code is to check if compiler throws error or not*/
 		  p2.sum(20, 30);
 		  p2.sum(67, 23);
 		 }	
