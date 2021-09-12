@@ -1,0 +1,17 @@
+
+
+class Poly2 {
+		
+		 void sum(int x, int y){
+		  System.out.println("Sum of 1st ftn numbers: " +(x+y));	 
+		 }
+		 void sum(int y, int x){
+		  System.out.println("Sum of 2nd ftn numbers: " +(x+y));	 
+		 }
+		public static void main(String[] args){
+		 Poly2 p2 = new Poly2();
+		  p2.sum(20, 30);
+		  p2.sum(67, 23);
+		 }	
+	
+}
